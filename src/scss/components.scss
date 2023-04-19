@@ -1,0 +1,26 @@
+@import 'variable.scss';
+.button {
+  background-color: #fff;
+  padding: 22px 35px;
+  color: #000;
+  transition: 300ms;
+  display: block;
+  width: max-content;
+  &:hover {
+    color: #fff;
+    background-color: $button;
+  }
+}
+.title {
+  font-size: 50px;
+  line-height: 67px;
+}
+.descr {
+  font-family: $roboto;
+  color: #666;
+  font-size: 16px;
+}
+.title,
+.descr {
+  text-align: center;
+}
